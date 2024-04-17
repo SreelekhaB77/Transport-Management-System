@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define SSH credentials for connecting to the target EC2 instance
         SSH_CREDENTIALS = 'sshcred'
-        REMOTE_HOST = '172.31.88.55'
+        REMOTE_HOST = '172.31.88.55' //private ip of apache web-server
         REMOTE_USER = 'ubuntu'
         REMOTE_DIR = '/var/www/html/' // Destination directory on the target EC2 instance
     }
